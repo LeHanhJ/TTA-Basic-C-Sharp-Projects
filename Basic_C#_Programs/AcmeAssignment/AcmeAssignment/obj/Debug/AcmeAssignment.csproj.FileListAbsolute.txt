@@ -1,0 +1,6 @@
+C:\Users\dell\Desktop\The Tech Academy files\Basic_C#_Programs\AcmeAssignment\AcmeAssignment\bin\Debug\AcmeAssignment.exe.config
+C:\Users\dell\Desktop\The Tech Academy files\Basic_C#_Programs\AcmeAssignment\AcmeAssignment\bin\Debug\AcmeAssignment.exe
+C:\Users\dell\Desktop\The Tech Academy files\Basic_C#_Programs\AcmeAssignment\AcmeAssignment\bin\Debug\AcmeAssignment.pdb
+C:\Users\dell\Desktop\The Tech Academy files\Basic_C#_Programs\AcmeAssignment\AcmeAssignment\obj\Debug\AcmeAssignment.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\The Tech Academy files\Basic_C#_Programs\AcmeAssignment\AcmeAssignment\obj\Debug\AcmeAssignment.exe
+C:\Users\dell\Desktop\The Tech Academy files\Basic_C#_Programs\AcmeAssignment\AcmeAssignment\obj\Debug\AcmeAssignment.pdb
