@@ -1,0 +1,7 @@
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\ConsoleAppAssignment\ConsoleAppAssignment\bin\Debug\ConsoleAppAssignment.exe.config
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\ConsoleAppAssignment\ConsoleAppAssignment\bin\Debug\ConsoleAppAssignment.exe
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\ConsoleAppAssignment\ConsoleAppAssignment\bin\Debug\ConsoleAppAssignment.pdb
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\ConsoleAppAssignment\ConsoleAppAssignment\obj\Debug\ConsoleAppAssignment.csproj.AssemblyReference.cache
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\ConsoleAppAssignment\ConsoleAppAssignment\obj\Debug\ConsoleAppAssignment.csproj.CoreCompileInputs.cache
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\ConsoleAppAssignment\ConsoleAppAssignment\obj\Debug\ConsoleAppAssignment.exe
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\ConsoleAppAssignment\ConsoleAppAssignment\obj\Debug\ConsoleAppAssignment.pdb
