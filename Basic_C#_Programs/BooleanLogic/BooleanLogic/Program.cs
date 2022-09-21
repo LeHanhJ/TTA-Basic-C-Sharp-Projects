@@ -43,10 +43,8 @@ namespace BooleanLogic
             qualifiedDUI = DUI == false;
             qualifiedTickets = speedingTickets <= 3;
 
-            // qualifiedForInsurance = True when all above statements are True
-            qualifiedForInsurance = (qualifiedAge && qualifiedDUI && qualifiedTickets);
-
-            if (qualifiedForInsurance == true) 
+         
+            if (qualifiedAge && qualifiedDUI && qualifiedTickets)
             {
                 Console.WriteLine("You are qualified for insurance!");
             }
