@@ -5,3 +5,10 @@ C:\Users\dell\Desktop\The Tech Academy files\Basic_C#_Programs\HelloWorld\HelloW
 C:\Users\dell\Desktop\The Tech Academy files\Basic_C#_Programs\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
 C:\Users\dell\Desktop\The Tech Academy files\Basic_C#_Programs\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
 C:\Users\dell\Desktop\The Tech Academy files\Basic_C#_Programs\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
