@@ -11,21 +11,45 @@ namespace ConsoleAppAssignment
         static void Main(string[] args)
         {
 
+            ////////////////////while statement//////////////////////////
+
+            //Sets up user input, and converts it into an integer. Integer is then used to convert to bool
+            Console.WriteLine("Guess my age! (20 - 40)");
+            int age = Convert.ToInt32(Console.ReadLine());
+            bool realAge = age == 30;
+
+            //WHILE the user-inputted age is GREATER THAN or LESS THAN the correct answer, 30.
+            while (age < 30|| age > 30)
+            {
+                Console.WriteLine("That's incorrect, please try again!");
+                Console.WriteLine("Guess my age! (20 - 40)");
+                age = Convert.ToInt32(Console.ReadLine());
+
+                //if user inputs 30, it will congratulate user and break from the program, going to the next
+                if (realAge)
+                {
+                    Console.WriteLine("That's right! What a great number!");
+                    break;
+                }
+                
+            }
+
+
+
+            ////////////////////// do/while statement //////////////////////
+
+
+
             Console.WriteLine("Guess my favorite number! (1 to 100)");
             int number = Convert.ToInt32(Console.ReadLine());
             bool guessedNum = number == 72;
 
-
+            //please DO this based on the parameters in WHILE below
             do
             {
                 switch (number)
                 {
                     //Gives guesser a way to know how they are doing in terms of guessing the correct number
-                    case 1:
-                        Console.WriteLine("You are wayyy too cold. Please try again.");
-                        Console.WriteLine("Guess a number:");
-                        number = Convert.ToInt32(Console.ReadLine());
-                        break;
                     case 50:
                         Console.WriteLine("You are getting warmer. Please try again.");
                         Console.WriteLine("Guess a number:");
@@ -78,12 +102,11 @@ namespace ConsoleAppAssignment
                         break;
                 }
             }
-
-
+            // while the guessed number is incorrect, please do as instructed above
             while (!guessedNum);
 
-            Console.Read();
-
+                Console.Read();
+            
         }
     }
 }
