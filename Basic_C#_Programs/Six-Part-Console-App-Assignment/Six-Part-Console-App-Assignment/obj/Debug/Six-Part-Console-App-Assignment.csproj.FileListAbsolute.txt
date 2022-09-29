@@ -1,0 +1,7 @@
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\Six-Part-Console-App-Assignment\Six-Part-Console-App-Assignment\obj\Debug\Six-Part-Console-App-Assignment.csproj.AssemblyReference.cache
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\Six-Part-Console-App-Assignment\Six-Part-Console-App-Assignment\obj\Debug\Six-Part-Console-App-Assignment.csproj.CoreCompileInputs.cache
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\Six-Part-Console-App-Assignment\Six-Part-Console-App-Assignment\bin\Debug\Six-Part-Console-App-Assignment.exe.config
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\Six-Part-Console-App-Assignment\Six-Part-Console-App-Assignment\bin\Debug\Six-Part-Console-App-Assignment.exe
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\Six-Part-Console-App-Assignment\Six-Part-Console-App-Assignment\bin\Debug\Six-Part-Console-App-Assignment.pdb
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\Six-Part-Console-App-Assignment\Six-Part-Console-App-Assignment\obj\Debug\Six-Part-Console-App-Assignment.exe
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\Six-Part-Console-App-Assignment\Six-Part-Console-App-Assignment\obj\Debug\Six-Part-Console-App-Assignment.pdb
