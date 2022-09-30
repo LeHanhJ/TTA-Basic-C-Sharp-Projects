@@ -1,0 +1,7 @@
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\StringsAndIntegersAssignment\StringsAndIntegersAssignment\bin\Debug\StringsAndIntegersAssignment.exe.config
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\StringsAndIntegersAssignment\StringsAndIntegersAssignment\bin\Debug\StringsAndIntegersAssignment.exe
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\StringsAndIntegersAssignment\StringsAndIntegersAssignment\bin\Debug\StringsAndIntegersAssignment.pdb
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\StringsAndIntegersAssignment\StringsAndIntegersAssignment\obj\Debug\StringsAndIntegersAssignment.csproj.AssemblyReference.cache
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\StringsAndIntegersAssignment\StringsAndIntegersAssignment\obj\Debug\StringsAndIntegersAssignment.csproj.CoreCompileInputs.cache
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\StringsAndIntegersAssignment\StringsAndIntegersAssignment\obj\Debug\StringsAndIntegersAssignment.exe
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\StringsAndIntegersAssignment\StringsAndIntegersAssignment\obj\Debug\StringsAndIntegersAssignment.pdb
