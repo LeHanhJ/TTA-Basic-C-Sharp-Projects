@@ -15,6 +15,7 @@ namespace CallingMethods
         public int AddNum(int num)
         {
             int sum = num + 100000;
+            // must have 'return;' to return something back to the request
             // without return sum; we would not be able to see a value 
             return sum;
         }
