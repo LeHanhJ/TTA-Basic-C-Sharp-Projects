@@ -19,7 +19,7 @@ namespace MainMethod
         }
 
         //multiplies by 4%, the tax amount in Hawai'i and returns it
-        public int DecimalNum(int num)
+        public int DecimalNum(decimal num)
         {
             decimal deciNum = num * .04m;
             int deciIntNum = Convert.ToInt32(deciNum);
