@@ -19,10 +19,11 @@ namespace MainMethod
         }
 
         //multiplies by 4%, the tax amount in Hawai'i and returns it
-        public double DecimalNum(double num)
+        public int DecimalNum(int num)
         {
-            double deciNum = num * .04;
-            return deciNum;
+            decimal deciNum = num * .04m;
+            int deciIntNum = Convert.ToInt32(deciNum);
+            return deciIntNum;
         }
 
         //converts user input in the method rather than the main program itself.
