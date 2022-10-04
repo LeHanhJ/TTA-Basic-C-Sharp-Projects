@@ -11,7 +11,7 @@ namespace MainMethod
     public class MathOperation
     {
         //squares a nnumber entered in variable num
-        public int SquareNum(int num)
+        public int operations(int num)
         {
             int square = num * num;
             //REMEMBER!! need "return;" to return value
@@ -19,17 +19,16 @@ namespace MainMethod
         }
 
         //multiplies by 4%, the tax amount in Hawai'i and returns it
-        public int DecimalNum(decimal num)
+        public int operations(decimal num2)
         {
-            decimal deciNum = num * .04m;
-            int deciIntNum = Convert.ToInt32(deciNum);
-            return deciIntNum;
+            int result = Convert.ToInt32(num2 * 1.04m);
+            return result;
         }
 
         //converts user input in the method rather than the main program itself.
-        public int StringNum(string num2)
+        public int operations(string num3)
         {
-            int numAgain = Convert.ToInt32(num2);
+            int numAgain = Convert.ToInt32(num3);
             int product = numAgain * 1000;
             return product;
         }
