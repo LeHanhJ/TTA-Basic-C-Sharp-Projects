@@ -1,0 +1,7 @@
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\MethodClassAssignment\MethodClassAssignment\obj\Debug\MethodClassAssignment.csproj.AssemblyReference.cache
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\MethodClassAssignment\MethodClassAssignment\obj\Debug\MethodClassAssignment.csproj.CoreCompileInputs.cache
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\MethodClassAssignment\MethodClassAssignment\bin\Debug\MethodClassAssignment.exe.config
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\MethodClassAssignment\MethodClassAssignment\bin\Debug\MethodClassAssignment.exe
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\MethodClassAssignment\MethodClassAssignment\bin\Debug\MethodClassAssignment.pdb
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\MethodClassAssignment\MethodClassAssignment\obj\Debug\MethodClassAssignment.exe
+C:\Users\dell\Documents\GitHub\TTA-Basic-C-Sharp-Projects\Basic_C#_Programs\MethodClassAssignment\MethodClassAssignment\obj\Debug\MethodClassAssignment.pdb
