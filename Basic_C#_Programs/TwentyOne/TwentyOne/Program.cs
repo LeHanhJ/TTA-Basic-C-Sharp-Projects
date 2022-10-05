@@ -16,8 +16,13 @@ namespace TwentyOne
             // The STATE of the object would be SIZE, COLOR, ETC
 
             Deck deck = new Deck();
-            int timesShuffled = 0;
-            deck = Shuffle(deck: deck, out timesShuffled, 3); // try to comment this out and see what you get
+            deck.Shuffle(3);
+
+            // previous iterations of code 10/3/22
+            // int timesShuffled = 0;
+            //deck = Shuffle(deck: deck, out timesShuffled, 3); // try to comment this out and see what you get
+
+
 
             foreach (Card card in deck.Cards)
             {
@@ -25,32 +30,33 @@ namespace TwentyOne
             }
 
             Console.WriteLine(deck.Cards.Count);
-            Console.WriteLine("Times shuffled: {0}", timesShuffled);
             Console.ReadLine();
         }
 
-        public static Deck Shuffle(Deck deck, out int timesShuffled, int times = 1)
-        {
-            timesShuffled = 0;
+        //copied and pasted into deck.cs; check notes there and compare to this code
 
-            for(int i = 0; i < times; i++)
-            {
-                timesShuffled++;
-                List<Card> tempList = new List<Card>();
-                Random random = new Random();
+        ////public static Deck Shuffle(Deck deck, out int timesShuffled, int times = 1)
+        ////{
+        ////    timesShuffled = 0;
 
-                while (deck.Cards.Count > 0)
-                {
-                    int randomIndex = random.Next(0, deck.Cards.Count);
-                    tempList.Add(deck.Cards[randomIndex]);
-                    deck.Cards.RemoveAt(randomIndex);
-                }
-                deck.Cards = tempList;
-            }
-           
-            return deck;
+        ////    for (int i = 0; i < times; i++)
+        ////    {
+        ////        timesShuffled++;
+        ////        List<Card> tempList = new List<Card>();
+        ////        Random random = new Random();
 
-        }
+        ////        while (deck.Cards.Count > 0)
+        ////        {
+        ////            int randomIndex = random.Next(0, deck.Cards.Count);
+        ////            tempList.Add(deck.Cards[randomIndex]);
+        ////            deck.Cards.RemoveAt(randomIndex);
+        ////        }
+        ////        deck.Cards = tempList;
+        ////    }
+
+        ////    return deck;
+
+        ////}
 
         //public static Deck Shuffle(Deck deck, int times)
         //{
