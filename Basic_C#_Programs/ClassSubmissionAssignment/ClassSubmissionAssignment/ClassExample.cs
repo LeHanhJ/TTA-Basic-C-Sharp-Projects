@@ -15,10 +15,9 @@ namespace ClassSubmissionAssignment
         }
 
         //output parameters
-        public static void outputParameters(out int numDivided)
+        public void outputParameters(out int numDivided)
         {
-            int dividedByTwo = 2;
-            numDivided = dividedByTwo;
+            numDivided = 2;
         }
 
         //overloaded method and declared to be static

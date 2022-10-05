@@ -22,7 +22,7 @@ namespace ClassSubmissionAssignment
             operations.outputInt(num1);
 
 
-            outputParameters(out num1);
+            operations.outputParameters(out num1);
 
             Console.WriteLine("After method call, value of num 1 : {0}", num1);
             Console.ReadLine();
