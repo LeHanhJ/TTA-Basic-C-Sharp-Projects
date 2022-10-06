@@ -23,10 +23,10 @@ namespace ClassSubmissionAssignment
         }
 
         //overloaded method and declared to be static
-        public static void outputInt(string num1, int num = 2)
+        public void outputInt(string stringNum, int intNum = 2)
         {
-            int RealNum = Convert.ToInt32(num1);
-            int NumQuotient = RealNum / num;
+            int RealNum = Convert.ToInt32(stringNum);
+            int NumQuotient = RealNum / intNum;
             Console.WriteLine(NumQuotient);
         }
     }
