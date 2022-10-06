@@ -15,9 +15,11 @@ namespace ClassSubmissionAssignment
         }
 
         //output parameters
-        public void outputParameters(out int numDivided)
+        // Created the out variable numDivided, which is then being used in the method...
+        public void outputParameters(out int voidMethodNumber)
         {
-            numDivided = 2;
+            //... by changing it to the value of 2
+            voidMethodNumber = 5;
         }
 
         //overloaded method and declared to be static

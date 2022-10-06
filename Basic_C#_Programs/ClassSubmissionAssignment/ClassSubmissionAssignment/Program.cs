@@ -21,12 +21,19 @@ namespace ClassSubmissionAssignment
             // call method on the inputted number and displays output to screen
             operations.outputInt(num1);
 
+            Console.WriteLine("And then we run it through a void method...\nWhere the parameters will be turned into whatever the method decides... ");
+            // run outputParameters() method...
 
-            operations.outputParameters(out num1);
+            operations.outputParameters(voidMethodNumber: out num1);
 
             Console.WriteLine("After method call, value of num 1 : {0}", num1);
+
+            Console.WriteLine(StaticClass.Add(numbers: 0));
             Console.ReadLine();
 
         }
+
+        
+
     }
 }
