@@ -24,9 +24,10 @@ namespace TwentyOne
             //Console.ReadLine();
 
             //Polymorphism: ability of a class to morph into its inheriting class to have certain advantages
-            List<Game> games = new List<Game>();
-            Game game = new TwentyOneGame();
-            games.Add(game);
+
+            TwentyOneGame game = new TwentyOneGame();
+            game.Players = new List<string>() { "Jesse", "Erik", "Bill" };
+            game.ListPlayers();
 
             Deck deck = new Deck();
             deck.Shuffle(3);
