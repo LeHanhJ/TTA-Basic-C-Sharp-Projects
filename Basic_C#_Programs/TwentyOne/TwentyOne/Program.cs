@@ -15,14 +15,19 @@ namespace TwentyOne
 
             // The STATE of the object would be SIZE, COLOR, ETC
 
+            //how to create an inherited class and make a new instance of that class
+            //TwentyOneGame game = new TwentyOneGame();
+            //game.Players = new List<string>() { "Jesse", "Bill", "Joe" };
+            //game.ListPlayers();
+            //game.Play();
+            //Console.ReadLine();
+
             Deck deck = new Deck();
             deck.Shuffle(3);
 
             // previous iterations of code 10/3/22
             // int timesShuffled = 0;
             //deck = Shuffle(deck: deck, out timesShuffled, 3); // try to comment this out and see what you get
-
-
 
             foreach (Card card in deck.Cards)
             {
@@ -65,6 +70,5 @@ namespace TwentyOne
         //        deck = Shuffle(deck);
         //    }
         //    return deck;
-        //}
     }
 }
