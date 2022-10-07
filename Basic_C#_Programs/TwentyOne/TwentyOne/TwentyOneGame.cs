@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace TwentyOne
 {
     //TwentyOneGame is a superclass/inheriting class as it inherits from the Game() class
-    public class TwentyOneGame : Game // if a class "Is A" Thing, then that INHERITS. TwentyOneGame IS A Game
+    public class TwentyOneGame : Game , IWalkAway// if a class "Is A" Thing, then that INHERITS. TwentyOneGame IS A Game
     {
         // in order to implement Play() from Game (since it is an abstract method), we need to override the method
         public override void Play() // "satifies the contract" between TwentyOneGame and Game
@@ -19,6 +19,11 @@ namespace TwentyOne
         {
             Console.WriteLine("21 Players: ");
             base.ListPlayers();
+        }
+
+        public void WalkAway(Player player)
+        {
+            throw new NotImplementedException();
         }
     }
 }
