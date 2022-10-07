@@ -8,9 +8,11 @@ namespace MethodsAndObjectsAssignment
 {
     public class Person
     {
+        //gave Person() class properties of FirstName and LastName
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
 
-        string FirstName;
-        string LastName;
+        //Created void method called SayName() to print out person's full name to console as instructed by steps
 
         public void SayName()
         {

@@ -10,6 +10,14 @@ namespace MethodsAndObjectsAssignment
     {
         static void Main(string[] args)
         {
+            //instantiates the Employee class
+            Employee employee = new Employee();
+            //initializes  first and last name of employee
+            employee.FirstName = "Sample";
+            employee.LastName = "Student";
+            // calls the superclass method of SayName()
+            employee.SayName();
+            Console.ReadLine();
 
         }
     }

@@ -8,6 +8,8 @@ namespace MethodsAndObjectsAssignment
 {
     class Employee : Person
     {
-        int Id;
+        //created a superclass that inherits from class Person()
+        // gave Employee class a property of int Id
+        public int Id { get; set; }
     }
 }
