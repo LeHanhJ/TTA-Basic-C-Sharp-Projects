@@ -8,9 +8,10 @@ namespace AbstractClassSubmissionAssignment
 {
     class Employee : Person
     {
-        public override string SayName()
+        //uses override so we are about to have method SayName() in abstract class Person run
+        public override void SayName()
         {
-
+            Console.WriteLine("Hello, my name is " + firstName + " " + lastName);
         }
     }
 }
