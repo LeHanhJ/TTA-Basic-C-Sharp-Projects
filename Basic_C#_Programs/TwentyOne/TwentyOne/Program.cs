@@ -15,12 +15,18 @@ namespace TwentyOne
 
             // The STATE of the object would be SIZE, COLOR, ETC
 
+
             //how to create an inherited class and make a new instance of that class
             //TwentyOneGame game = new TwentyOneGame();
             //game.Players = new List<string>() { "Jesse", "Bill", "Joe" };
             //game.ListPlayers();
             //game.Play();
             //Console.ReadLine();
+
+            //Polymorphism: ability of a class to morph into its inheriting class to have certain advantages
+            List<Game> games = new List<Game>();
+            Game game = new TwentyOneGame();
+            games.Add(game);
 
             Deck deck = new Deck();
             deck.Shuffle(3);
