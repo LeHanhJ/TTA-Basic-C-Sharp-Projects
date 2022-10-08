@@ -9,7 +9,7 @@ namespace TwentyOne
     public abstract class Game //the class Game is an abstract class because it is always a specific type of game. ex Poker, 21, etc
     { //     ^-------- abstract keyword to make class an abstract. Can no longer instantiate in main program
         //add properties to Game class (what does the Game class have?)
-        public List<string> Players { get; set; }
+        public List<Player> Players { get; set; }
         public string Name { get; set; }
         public string Dealer { get; set; }
 
@@ -23,9 +23,9 @@ namespace TwentyOne
         // but it has the ability to override it (Virtual methods HAVE implementation but it CAN be overridden)
         public virtual void ListPlayers()
         {
-            foreach (string player in Players)
+            foreach (Player player in Players)
             {
-                Console.WriteLine(player);
+                Console.WriteLine(player.Name);
             }
         }
 
