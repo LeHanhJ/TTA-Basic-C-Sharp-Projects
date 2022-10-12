@@ -19,5 +19,29 @@ namespace AbstractClassSubmissionAssignment
         {
             Console.WriteLine("I am quitting. Goodbye.");
         }
+
+
+        //
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+
+        // *Overloading the operators == and !=* //
+        public static bool operator ==(Employee emp1, Employee emp2)
+        {
+            if (emp1.Id.Equals(emp2.Id))
+            {
+                return true;
+            }
+            return false;
+        }
+        public static bool operator !=(Employee emp1, Employee emp2)
+        {
+            if (!emp1.Id.Equals(emp2.Id))
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }
