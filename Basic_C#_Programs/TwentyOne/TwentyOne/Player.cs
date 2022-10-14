@@ -16,14 +16,14 @@ namespace TwentyOne
 
         // ** Overloading an operator** //
         // ------------v return type 
-        public static Game operator+ (Game game, Player player)
-            //what we are adding together----^------------^
+        public static Game operator +(Game game, Player player)
+        //what we are adding together----^------------^
         {
             game.Players.Add(player);
             return game;
         }
 
-        public static Game operator- (Game game, Player player)
+        public static Game operator -(Game game, Player player)
         {
             game.Players.Remove(player);
             return game;

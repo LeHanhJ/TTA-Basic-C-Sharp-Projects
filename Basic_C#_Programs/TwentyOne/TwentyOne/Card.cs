@@ -11,14 +11,41 @@ namespace TwentyOne
     public class Card
     {
         // CONSTRUCTOR : its values are assigned to an object upon creation
-        public Card() // method name is always name of the class (ie Card() method)
-        {
-            Suit = "Spades";
-            Face = "Two";
-        }
+        //public Card() // method name is always name of the class (ie Card() method)
+        //{
+        //    Suit = "Spades";
+        //    Face = "Two";
+        //}
         // C# has a nice shorthand way of creating properties (ex: suit/face) in objects (ex: card) vvv
-        public string Suit { get; set; } // by making PROPERTY string suit "public", it makes it accessible to other parts of the program
-        public string Face { get; set; }
+        public Suit Suit { get; set; } // by making PROPERTY string suit "public", it makes it accessible to other parts of the program
+        public Face Face { get; set; }
         //  public datatype datatypename { "get" or "set" property }
+    }
+
+    // ENUM
+
+    public enum Suit
+    {
+        Clubs,
+        Diamonds,
+        Hearts,
+        Spades
+    }
+
+    public enum Face
+    {
+        Two,
+        Three,
+        Four,
+        Five,
+        Six,
+        Seven,
+        Eight,
+        Nine,
+        Ten,
+        Jack,
+        Queen,
+        King,
+        Ace
     }
 }

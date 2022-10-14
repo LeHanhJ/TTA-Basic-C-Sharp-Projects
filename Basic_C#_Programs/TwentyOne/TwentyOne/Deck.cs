@@ -9,35 +9,20 @@ namespace TwentyOne
     public class Deck
     {
         // CONSTRUCTOR : values are assigned to an object upon creation. public Deck() is a constructor; it is in class Deck
-        public Deck() // constructor first (constructor constructs a class) that makes Deck() have 52  cards with diff faces and suits
-        {//   vv----This ("Cards") refers to the PROPERTY of the CLASS --^^ Property is what the class has to describe it.
-            //ie, a Deck has Cards (Cards is also another class that has Suit and Face already assigned to it
+        public Deck() 
+        {
             Cards = new List<Card>();
 
-            // "For each face in a list of 13 cards, we need to loop through 4 times. Once for each suit.
-            // User a "Nested For Loop"
-
-            List<string> Suits = new List<string>() { "Hearts", "Clubs", "Diamonds", "Spades" };
-            List<string> Faces = new List<string>()
-            {   
-                "Two", "Three", "Four", "Five", "Six", "Seven",
-                "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"
-            };
-
-            foreach (string face in Faces)
+            for (int i = 0; i < 13; i++)
             {
-                foreach (string suit in Suits)
+                for (int j = 0; j < 4; j++)
                 {
                     Card card = new Card();
-                    card.Suit = suit;
-                    card.Face = face;
+                    card.Face = (Face)i;
+                    card.Suit = (Suit)j;
                     Cards.Add(card);
-
                 }
             }
-
-
-
         }
         // Cards'-----------v---property is a List 
         //      V-----------v------------------|

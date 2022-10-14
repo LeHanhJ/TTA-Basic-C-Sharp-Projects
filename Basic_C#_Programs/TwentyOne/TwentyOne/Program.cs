@@ -10,38 +10,8 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            // OBJECTS are items that can be represented by a computer program. They are often meant to represent real world things. 
-            // In the world around you, you are surrounded by objects. OBJECTS have STATE and BEHAVIORS
-
-            // The STATE of the object would be SIZE, COLOR, ETC
-
-
-            //how to create an inherited class and make a new instance of that class
-            //TwentyOneGame game = new TwentyOneGame();
-            //game.Players = new List<string>() { "Jesse", "Bill", "Joe" };
-            //game.ListPlayers();
-            //game.Play();
-            //Console.ReadLine();
-
-            //Polymorphism: ability of a class to morph into its inheriting class to have certain advantages
-
-            //TwentyOneGame game = new TwentyOneGame();
-            //game.Players = new List<string>() { "Jesse", "Erik", "Bill" };
-            //game.ListPlayers();
-
-            //Game game = new TwentyOneGame();
-            //game.Players = new List<Player>();
-            //Player player = new Player();
-            //player.Name = "Jesse";
-            //game = game + player;
-
-
             Deck deck = new Deck();
             deck.Shuffle(3);
-
-            // previous iterations of code 10/3/22
-            // int timesShuffled = 0;
-            //deck = Shuffle(deck: deck, out timesShuffled, 3); // try to comment this out and see what you get
 
             foreach (Card card in deck.Cards)
             {
@@ -51,6 +21,8 @@ namespace TwentyOne
             Console.WriteLine(deck.Cards.Count);
             Console.ReadLine();
         }
+
+        
 
         //copied and pasted into deck.cs; check notes there and compare to this code
 
