@@ -47,6 +47,13 @@ namespace LambdaSubmissionAssignment
                 }
             }
 
+            catch
+            {
+                Console.WriteLine("Error");
+                return;
+            }
+
+
             //Perform as above but with a lambda expression
             List<Employee> JoesList = listOfEmployees.Where(x => x.FirstName == "Joe").ToList();
             foreach (Employee joe in JoesList)
@@ -64,12 +71,7 @@ namespace LambdaSubmissionAssignment
 
 
 
-            catch
-            {
-                Console.WriteLine("Error");
-                return;
-            }
-
+            
             Console.ReadLine();
             
           
