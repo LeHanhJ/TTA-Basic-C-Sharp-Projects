@@ -25,42 +25,50 @@ namespace LambdaSubmissionAssignment
             };
 
             //creates new list of Joes
-            //List<Employee> JoeList = new List<Employee>();
+            List<Employee> JoeList = new List<Employee>();
 
 
-            //try
-            //{
-            //    //uses a foreach loop to go through list of employees
-            //    foreach (Employee employee in listOfEmployees)
-            //    {
-            //        //and IF the first name is Joe ; using the WHILE loop will loop through UNTIL the name is different from Joe
-            //        // ex: WHILE Joe's name is Joe, loop through the list
-            //        // in comparison: IF the employee's first name is joe in this list, please add to the JoeList
-            //        // IF will run through the loop until the end while WHILE will keep running until the argument is met
-            //        if (employee.FirstName == "Joe")
-            //        {
-            //            //Add the employee from employee to JoeList
-            //            JoeList.Add(employee);
-            //            //and print out the names
-            //            Console.WriteLine(employee.FirstName + " " + employee.LastName);
-            //        }
-            //    }
-            //}
+            try
+            {
+                //uses a foreach loop to go through list of employees
+                foreach (Employee employee in listOfEmployees)
+                {
+                    //and IF the first name is Joe ; using the WHILE loop will loop through UNTIL the name is different from Joe
+                    // ex: WHILE Joe's name is Joe, loop through the list
+                    // in comparison: IF the employee's first name is joe in this list, please add to the JoeList
+                    // IF will run through the loop until the end while WHILE will keep running until the argument is met
+                    if (employee.FirstName == "Joe")
+                    {
+                        //Add the employee from employee to JoeList
+                        JoeList.Add(employee);
+                        //and print out the names
+                        Console.WriteLine(employee.FirstName + " " + employee.LastName);
+                    }
+                }
+            }
 
             //Perform as above but with a lambda expression
-            List<Employee> JoeList = listOfEmployees.Where(x => x.FirstName == "Joe").ToList();
+            List<Employee> JoesList = listOfEmployees.Where(x => x.FirstName == "Joe").ToList();
+            foreach (Employee joe in JoesList)
+            {
+                Console.WriteLine(joe.FirstName + " " + joe.LastName + "\n");
+            }
 
-
-            //Using a lambda expression, make a list of employees with an ID greater than 5
+            ////Using a lambda expression, make a list of employees with an ID greater than 5
             List<Employee> IDGreaterThan5 = listOfEmployees.Where(x => x.Id > 5).ToList();
-            Console.WriteLine(IDGreaterThan5.Count);
-            
+            foreach (Employee id in IDGreaterThan5)
+            {
+                Console.WriteLine(id.FirstName + " " + id.LastName + "\nID: " + id.Id);
 
-            //catch
-            //{
-            //    Console.WriteLine("Error");
-            //    return;
-            //}
+            }
+
+
+
+            catch
+            {
+                Console.WriteLine("Error");
+                return;
+            }
 
             Console.ReadLine();
             
