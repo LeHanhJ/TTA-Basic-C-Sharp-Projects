@@ -8,7 +8,7 @@ namespace TwentyOne
 {
 
     // Class vs Object: Class is the cookie cutter vs Object is the cookie; OR Class is the recipe for food vs Object is the cooked food
-    public class Card
+    public struct Card
     {
         // CONSTRUCTOR : its values are assigned to an object upon creation
         //public Card() // method name is always name of the class (ie Card() method)
