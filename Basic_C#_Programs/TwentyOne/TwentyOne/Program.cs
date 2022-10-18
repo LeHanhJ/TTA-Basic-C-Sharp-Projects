@@ -10,17 +10,33 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to the Grand Hotel and Casino!\nLet's start by telling me your name.");
+            string playerName = Console.ReadLine();
+            Console.WriteLine("And how much money did you bring today?");
+            int bank = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Hello, {0}. Would you like to join a game of 21 right now?", playerName);
+            string answer = Console.ReadLine().ToLower();
 
-            Deck deck = new Deck();
-            //deck.Shuffle(3);
+            //program that will run if user says "yes" to wanting to play 21
+            if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya" || answer == "yea")
+            {
+                Player player = new Player(playerName, bank); //Player(playerName, bank) from the player class, after making a constructor
+                Game game = new TwentyOneGame(); //polymorphism: establishing new game as a 21Game (is both Game and TwentyOneGame)
+                game += player; //adding a player to the game
+                player.isActivelyPlaying = true; //isActivelyPlaying = property of player class; will constantly check in a while loop if the player is still playing
+                
+                while (player.isActivelyPlaying && player.Balance > 0)
+                {
+                    game.Play(); //this is just one hand played/iteration through the method  
+                }
+                game -= player;
+                Console.WriteLine("Thank you for playing!");
+            }
 
-            //foreach (Card card in d eck.Cards)
-            //{
-            //    Console.WriteLine(card.Face + " of " + card.Suit);
-            //}
-
-            //Console.WriteLine(deck.Cards.Count);
+            //if user chooses "no", then it will skip to here
+            Console.WriteLine("Feel free to look around the casino. Bye for now!");
             Console.ReadLine();
+
         }
 
 

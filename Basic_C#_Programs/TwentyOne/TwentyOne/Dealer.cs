@@ -15,12 +15,9 @@ namespace TwentyOne
         //Deal() method
         public void Deal(List<Card> Hand)
         {
-            //adds the first card in the deck to the hand
-            Hand.Add(Deck.Cards.First());
-            //prints out what has been shown in the hand
-            Console.WriteLine(Deck.Cards.First().ToString() + "/n");
-            //removes card from deck
-            Deck.Cards.RemoveAt(0);
+            Hand.Add(Deck.Cards.First());//adds the first card in the deck to the hand
+            Console.WriteLine(Deck.Cards.First().ToString() + "\n");//prints out what has been shown in the hand
+            Deck.Cards.RemoveAt(0); //removes card from deck
         }
     }
 }

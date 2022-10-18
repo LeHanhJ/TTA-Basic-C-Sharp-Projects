@@ -20,6 +20,11 @@ namespace TwentyOne
         public Suit Suit { get; set; } // by making PROPERTY string suit "public", it makes it accessible to other parts of the program
         public Face Face { get; set; }
         //  public datatype datatypename { "get" or "set" property }
+
+        public override string ToString() //overode the ToString() method to return a customized string
+        {
+            return string.Format("{0} of {1} ", Face, Suit);
+        }
     }
 
     // ENUM

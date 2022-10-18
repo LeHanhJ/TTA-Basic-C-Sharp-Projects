@@ -8,9 +8,16 @@ namespace TwentyOne
 {
     public abstract class Game //the class Game is an abstract class because it is always a specific type of game. ex Poker, 21, etc
     { //     ^-------- abstract keyword to make class an abstract. Can no longer instantiate in main program
-        public List<Player> Players { get; set; }
+
+        //We need to make sure that the player list (List<Player>) is never null. Make sure that list is at least an instanciated empty list
+
+        private List<Player> _players = new List<Player>(); //making a private List<Player> (private needs underscore, REMEMBER!!)
+        private Dictionary<Player, int> _bets = new Dictionary<Player, int>();
+        public List<Player> Players { get { return _players; } set { _players = value; } }
+
         public string Name { get; set; }
-        public string Dealer { get; set; }
+        public Dictionary<Player, int> Bets { get { return _bets; } set { _bets = value; } } //Key-Value pair, Player is the Key, int is the amount and is the Value
+
 
         // an Abstract method can only exist in an ABSTRACT CLASS, and it contains NO implementation (see IWalkAway.cs)
         // This line states "any class that is inheriting this class MUST have this/implement Play() method
