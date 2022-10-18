@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace TwentyOne
+namespace Casino
 {
     public class Dealer // if something "HAS A" thing, it does not inherit; it has its own properties. A Dealer HAS A Deck, a dealer IS NOT a deck
     {

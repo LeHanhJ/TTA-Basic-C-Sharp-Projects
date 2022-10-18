@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino
 {
 
     // Class vs Object: Class is the cookie cutter vs Object is the cookie; OR Class is the recipe for food vs Object is the cooked food

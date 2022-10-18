@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino
 {
     public abstract class Game //the class Game is an abstract class because it is always a specific type of game. ex Poker, 21, etc
     { //     ^-------- abstract keyword to make class an abstract. Can no longer instantiate in main program
