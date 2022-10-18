@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace TwentyOne
 {
@@ -10,6 +11,8 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+            
+
             Console.WriteLine("Welcome to the Grand Hotel and Casino!\nLet's start by telling me your name.");
             string playerName = Console.ReadLine();
             Console.WriteLine("And how much money did you bring today?");
@@ -36,6 +39,20 @@ namespace TwentyOne
             //if user chooses "no", then it will skip to here
             Console.WriteLine("Feel free to look around the casino. Bye for now!");
             Console.ReadLine();
+
+
+            ////// FILE I/O 
+            ///string text = "Here is some text.";
+            ///File.WriteAllText(@"C:\Users\dell\text.txt", text); //@ means to read string 
+            ///... then to read...
+            /// string text = File.ReadAllText(@"C:\Users\dell\text.txt");
+            /// --------^ hover over and should have the text assigned to it
+            /// 
+            ///////DATETIME
+            ///DateTime yearOfBirth = new DateTime(1995, 5, 23, 8, 32, 45);//DateTime is a value type, also a Struct so is non-nullable
+            //DateTime yearOfGraduation = new DateTime(2013, 6, 1, 16, 34, 22);
+            //....then....
+            //TimeSpan ageAtGraduation = yearOfGraduation - yearOfBirth;
 
         }
 
