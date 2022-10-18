@@ -8,6 +8,10 @@ namespace Casino
 {
      public class Player
     {
+        public Player(string name) :this(name, 100) //says "assign Name to 'name', and if there is no beginning balance, automatically make it 100"
+        { 
+        }
+
         //constructor
         public Player(string name, int beginningBalance) // making a constructor that takes two arguments
         {
@@ -24,6 +28,7 @@ namespace Casino
         public string Name { get; set; }
         public bool isActivelyPlaying { get; set; }
         public bool Stay { get; set; }
+        public Guid Id { get; set; }
 
         public bool Bet(int amount) //creating method Bet()
         {

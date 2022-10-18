@@ -21,8 +21,10 @@ namespace Casino
             Console.WriteLine(card);//prints out what has been shown in the hand
             using (StreamWriter file = new StreamWriter(@"C:\Users\dell\text.txt", true)) //to log down cards that have been dealt
             { // 'true' appends the text to the file --------------------^
+
                 file.WriteLine(DateTime.Now);
                 file.WriteLine(card);
+            
             } //'using' clears out memory once it reaches this last curly bracket
             Deck.Cards.RemoveAt(0); //removes card from deck
         }

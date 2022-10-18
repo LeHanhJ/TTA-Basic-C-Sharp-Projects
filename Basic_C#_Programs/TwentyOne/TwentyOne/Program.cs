@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +13,10 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Grand Hotel and Casino!\nLet's start by telling me your name.");
+            const string casinoName = "Grand Hotel and Casino";
+
+
+            Console.WriteLine("Welcome to the {0}!\nLet's start by telling me your name.", casinoName);
             string playerName = Console.ReadLine();
             Console.WriteLine("And how much money did you bring today?");
             int bank = Convert.ToInt32(Console.ReadLine());
@@ -23,6 +27,13 @@ namespace TwentyOne
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya" || answer == "yea")
             {
                 Player player = new Player(playerName, bank); //Player(playerName, bank) from the player class, after making a constructor
+                player.Id = Guid.NewGuid();//GUID means Globally Unique IDentifier to set a unique identifier to each user
+               
+                using (StreamWriter file = new StreamWriter(@"C:\Users\dell\text.txt", true))
+                {
+                    file.WriteLine(player.Id);
+                }
+
                 Game game = new TwentyOneGame(); //polymorphism: establishing new game as a 21Game (is both Game and TwentyOneGame)
                 game += player; //adding a player to the game
                 player.isActivelyPlaying = true; //isActivelyPlaying = property of player class; will constantly check in a while loop if the player is still playing
