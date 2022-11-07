@@ -1,0 +1,21 @@
+﻿@page
+@{
+    @functions{
+        public string Message { get; set; }
+        public static DateTime Now { get; set; }
+
+        public void OnGet()
+        {
+            DateTime timeNow = DateTime.Now;
+            Message = String.Format("The date and time now is: {0}" , Convert.ToString(timeNow)) + " in Portland, OR."; 
+        }
+    }    
+}
+
+@{
+    var dayOfTheWeek = DateTime.Now.DayOfWeek;
+    var greeting = String.Format("Thanks for visiting this page! Today is {0}.", Convert.ToString(dayOfTheWeek));
+    
+}
+<h2>@greeting</h2>
+<h3>@Message</h3>
